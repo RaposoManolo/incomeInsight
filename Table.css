@@ -1,0 +1,67 @@
+body {
+	background-color: #f6f6ff;
+	font-family: Calibri, Myriad;
+}
+
+#main {
+	width: 780px;
+	padding: 20px;
+	margin: auto;
+}
+
+table.dividendChart {
+	margin: auto;
+	width: 600px;
+	border-collapse: collapse;
+	border: 1px solid #fff; /*for older IE*/
+	border-style: hidden;
+}
+
+table.dividendChart caption {
+	background-color: #f79646;
+	color: #fff;
+	font-size: x-large;
+	font-weight: bold;
+	letter-spacing: .3em;
+}
+
+table.dividendChart thead th {
+	padding: 8px;
+	background-color: #fde9d9;
+	font-size: large;
+}
+
+table.dividendChart thead th#thMonth {
+	width: 40%;	
+}
+
+table.dividendChart thead th#thYearOne, table.dividendChart thead th#thYearTwo, table.dividendChart thead th#thCurrentYear {
+	width: 20%;
+}
+
+table.dividendChart th, table.dividendChart td {
+	padding: 3px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #f79646 #ccc;
+}
+
+table.dividendChart td {
+	text-align: right;
+}
+
+table.dividendChart tbody th {
+	text-align: left;
+	font-weight: normal;
+}
+
+table.dividendChart tfoot {
+	font-weight: bold;
+	font-size: large;
+	background-color: #687886;
+	color: #fff;
+}
+
+table.dividendChart tr.even {
+	background-color: #fde9d9;
+}
